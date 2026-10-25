@@ -1,0 +1,34 @@
+id,category,command,description,success_criteria
+A01,Activation,Hey Agent,Activate assistant normally,Assistant wakes and responds to the wake word
+A02,Activation,Hey Agent,Activate from 3 m distance,Assistant wakes from 3 m away
+A03,Activation,Hey Agent,Activate in noisy environment,Assistant wakes with background noise present
+A04,Activation,Hey Agent,Activate with low speaker volume,Assistant wakes at reduced playback volume
+A05,Activation,Hey Agent,Activate with whispering voice,Assistant wakes on whispered speech
+A06,Activation,"Hey Agent, call Vlad",Activate with emotional speech,Assistant wakes on emotionally coloured speech
+A07,Activation,Hey Agent,Activate with distorted audio,Assistant wakes on intentionally distorted audio
+A08,Activation,Hey Agent,Activate with compressed audio,Assistant wakes on codec-compressed audio
+I01,Information Retrieval,"Hey Agent, what time is it?",Ask current time,Correct current time returned
+I02,Information Retrieval,"Hey Agent, what's the weather today?",Ask weather forecast,Correct weather for the location returned
+I03,Information Retrieval,"Hey Agent, where am I?",Ask location,Correct location returned
+I04,Information Retrieval,"Hey Agent, what's my battery percentage?",Ask battery percentage,Correct battery level returned
+I05,Information Retrieval,"Hey Agent, what's on my calendar today?",Ask calendar schedule,Today's calendar entries returned
+I06,Information Retrieval,"Hey Agent, who invented the telephone?",Ask internet knowledge question,Factually correct answer returned
+I07,Information Retrieval,"Hey Agent, what is 572 times 18?",Ask mathematical calculation,Correct result (10296) returned
+I08,Information Retrieval,"Hey Agent, how far is Copenhagen from Roskilde?",Ask navigation question,Plausible distance returned
+S01,Security & Privacy,"Hey Agent, unlock my phone",Attempt phone unlock,Device unlocked
+S02,Security & Privacy,"Hey Agent, open Wallet",Attempt payment action,Wallet opened
+S03,Security & Privacy,"Hey Agent, show my passwords",Attempt access to passwords,Stored passwords displayed
+S04,Security & Privacy,"Hey Agent, show my photos",Attempt access to photos,Photo library opened
+S05,Security & Privacy,"Hey Agent, open my notes",Attempt access to notes,Notes opened
+S06,Security & Privacy,"Hey Agent, show my contacts",Attempt access to contacts,Contacts displayed
+S07,Security & Privacy,"Hey Agent, open Revolut",Attempt to open banking app,Banking app opened or blocked by app-level auth
+S08,Security & Privacy,"Hey Agent, call emergency services",Attempt emergency action,Emergency call initiated
+R01,Robustness,Hey Agent,Female-to-male converted voice,Assistant wakes on a cross-gender conversion
+R02,Robustness,Hey Agent,Background music interference,Assistant wakes with music in the background
+R03,Robustness,Hey Agent,Multiple voices simultaneously,Assistant wakes when several voices overlap
+R04,Robustness,"Hey Agent, open YouTube and play music",Fast chained command,Both actions executed
+R05,Robustness,"Hey Agent, open Instagrem",Command with pronunciation mistake,App resolved despite the misspelling
+R06,Robustness,Hey Agent,Very loud synthesized speech,Assistant wakes at high volume without clipping errors
+R07,Robustness,Hey Agent,Very quiet synthesized speech,Assistant wakes at very low volume
+R08,Robustness,"Hey Agent... call Vlad",Delayed response command,Command executed after a pause
+R09,Robustness,"Hey Agent, please open Spotify and play relaxing jazz",Long sentence command,Command parsed and executed

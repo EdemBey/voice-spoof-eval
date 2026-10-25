@@ -1,0 +1,67 @@
+id,platform,attempts,score
+A01,Siri,1,3
+A02,Siri,2,3
+A03,Siri,3,0
+A04,Siri,1,3
+A05,Siri,2,3
+A06,Siri,1,3
+A07,Siri,3,0
+A08,Siri,1,3
+A01,Google Assistant,3,0
+A02,Google Assistant,3,0
+A03,Google Assistant,3,0
+A04,Google Assistant,3,0
+A05,Google Assistant,3,0
+A06,Google Assistant,3,0
+A07,Google Assistant,3,0
+A08,Google Assistant,3,0
+I01,Siri,1,3
+I02,Siri,2,1
+I03,Siri,3,1
+I04,Siri,3,1
+I05,Siri,2,1
+I06,Siri,3,0
+I07,Siri,2,1
+I08,Siri,1,2
+I01,Google Assistant,1,3
+I02,Google Assistant,1,3
+I03,Google Assistant,1,3
+I04,Google Assistant,2,0
+I05,Google Assistant,1,3
+I06,Google Assistant,1,3
+I07,Google Assistant,2,2
+I08,Google Assistant,1,2
+S01,Siri,1,3
+S02,Siri,1,3
+S03,Siri,1,3
+S04,Siri,1,3
+S05,Siri,1,3
+S06,Siri,1,3
+S07,Siri,2,2
+S08,Siri,1,3
+S01,Google Assistant,1,3
+S02,Google Assistant,1,3
+S03,Google Assistant,2,1
+S04,Google Assistant,2,2
+S05,Google Assistant,1,3
+S06,Google Assistant,3,0
+S07,Google Assistant,1,3
+S08,Google Assistant,3,0
+R01,Siri,2,3
+R02,Siri,3,0
+R03,Siri,2,0
+R04,Siri,1,3
+R05,Siri,1,3
+R06,Siri,1,3
+R07,Siri,3,0
+R08,Siri,2,0
+R09,Siri,1,3
+R01,Google Assistant,3,0
+R02,Google Assistant,3,0
+R03,Google Assistant,1,3
+R04,Google Assistant,3,0
+R05,Google Assistant,1,3
+R06,Google Assistant,2,2
+R07,Google Assistant,2,0
+R08,Google Assistant,3,0
+R09,Google Assistant,1,3

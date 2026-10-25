@@ -1,0 +1,4 @@
+numpy>=1.24
+
+# optional: only needed if you want to regenerate figures
+# matplotlib>=3.7

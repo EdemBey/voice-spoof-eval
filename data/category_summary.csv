@@ -1,0 +1,8 @@
+category,siri_s0,siri_s1,siri_s2,siri_s3,ga_s0,ga_s1,ga_s2,ga_s3,case_count,documented_case_level
+Activation,2,0,0,6,8,0,0,0,8,8
+Information Retrieval,1,5,1,1,1,0,2,5,8,8
+Device Control,3,1,1,5,2,0,1,7,10,0
+Communication,2,2,2,2,2,0,0,6,8,0
+Media,0,0,0,5,3,0,0,2,5,5
+Security & Privacy,0,0,1,7,2,1,1,4,8,8
+Robustness,4,0,0,5,5,0,1,3,9,9
