@@ -5,6 +5,8 @@
 > A 56-case protocol, a 4-point rubric, and a metrics pipeline for answering one question:
 > *is this audio safe to trust?*
 
+[![tests](https://github.com/EdemBey/voice-spoof-eval/actions/workflows/ci.yml/badge.svg)](https://github.com/EdemBey/voice-spoof-eval/actions/workflows/ci.yml)
+
 Built for a Computer Science project module at Roskilde University (F2026).
 
 ---
